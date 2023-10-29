@@ -1,7 +1,26 @@
 body{background-color: greenyellow;}
 
-.header{background-color: blue; color: white; font-size: 28pt;
-text-align: center; padding: 22pt;}
+.header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-size: 28pt;
+    text-align: center;
+}
+
+.header #logo {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+}
+
+.header .page {
+    display: inline-block;
+    color: black;
+    margin: 10px;
+}
 
 .text1{background-color: white; color: darkblue; text-align: justify; width: 40%;
 padding: 12pt; margin-top: 21pt; border: blue 10px solid; border-radius: 20px; }
