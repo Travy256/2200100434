@@ -1,0 +1,11 @@
+body{background-color: greenyellow;}
+
+.header{background-color: blue; color: white; font-size: 28pt;
+text-align: center; padding: 22pt;}
+
+.text1{background-color: white; color: darkblue; text-align: justify; width: 40%;
+padding: 12pt; margin-top: 21pt; border: blue 10px solid; border-radius: 20px; }
+
+.text1 img{width: 40%; float: left; padding: 22pt;}
+.text2{background-color: purple; color: lightskyblue; text-align: justify; width: 40%; padding: 10pt; border: red 10pt solid; border-radius: 20px; float: left;}
+.text2 img{width: 40%; float: left; padding: 22pt;}
