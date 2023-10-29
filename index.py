@@ -12,5 +12,8 @@ def home():
 def about():
     return render_template("about.html")
 
-app.run()    
+@app.route('/contacts')
+def contacts():
+    return render_template("contacts.html")
 
+app.run()
