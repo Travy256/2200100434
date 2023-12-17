@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 
-app = Flask("HANK ONLINE HARDWARE",template_folder="html",static_folder="static")
+app = Flask("HANK MOBILE HARDWARE",template_folder="html",static_folder="static")
 
 app.config["TEMPLATES_AUTO_RELOAD"]=True
 
