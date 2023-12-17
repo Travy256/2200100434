@@ -9,6 +9,28 @@ body {
     background-color: black;
     font-size: 28pt;
     text-align: center;
+
+
+}
+
+div.account {
+  padding: 25px;
+  position: fixed;
+  right: 0px;
+}
+
+div.signup {
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+div.login {
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
 }
 
 .header #logo {
