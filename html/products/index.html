@@ -3,14 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About</title>
+    <title>Products</title>
     <link rel="stylesheet" type="text/css" href="../static/css/mystyle.css">
     {% from 'macros.html' import header, sidebar, footer %}
   </head>
   <body>
       {{ header() }}
       <div class="main">
-        <p>Bla bla bla this is about us!</p>
+        <h1>Categories</h1>
+        <a href="/products/paint"><h2>  Paint</h2></a>
+        <h3>    Silk</h3>
+        <h3>    Undercoat</h3>
+        <h3>    Weather Guard</h3>
+        <a href="/products/roofing"><h2>  Roofing</h2></a>
+        <a href="/products/cement"><h2>  Cement</h2></a>
       </div>
       {{ footer() }}
   </body>

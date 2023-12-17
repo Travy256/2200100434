@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Contacts</title>
-	<link rel="stylesheet" type="text/css" href="../static/css/mystyle.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacts</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/mystyle.css">
     {% from 'macros.html' import header, sidebar, footer %}
-</head>
-<body>
-    {{ header() }}
-    <div class="main">
-      <div class="info"">
-        <p><b>Phone:</b> 0741455210</p>
-        <p><b>Address:</b> 11 Nile Road</p>
-        <p><b>Email:</b> hank_hardware@gamil.com</p>
-      </div>
+  </head>
+  <body>
+      {{ header() }}
+      <div class="main">
+        <div class="info"">
+          <p><b>Phone:</b> 0741455210</p>
+          <p><b>Address:</b> 11 Nile Road</p>
+          <p><b>Email:</b> hank_hardware@gamil.com</p>
+        </div>
 
-      <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2094.0880311181!2d32.4585915238896!3d0.06795262243982006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMDQnMDIuNSJOIDMywrAyNyczMS44IkU!5e0!3m2!1sen!2sug!4v1702822354773!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2094.0880311181!2d32.4585915238896!3d0.06795262243982006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMDQnMDIuNSJOIDMywrAyNyczMS44IkU!5e0!3m2!1sen!2sug!4v1702822354773!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
       </div>
-    </div>
-    {{ footer() }}
-</body>
+      {{ footer() }}
+  </body>
 </html>
