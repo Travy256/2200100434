@@ -24,6 +24,19 @@ body {
     margin: 10px;
 }
 
+div.sidebar {
+  /* float: left; */
+  background-color: yellow;
+  /* width: 100px; */
+  display: inline-block;
+  height: 100vh;
+}
+
+div.main {
+  /* float: right; */
+  /* display: inline-block; */
+}
+
 div.info {
   padding: 10px;
 }
