@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+
+  application:
+    container_name: HANK
+    restart: always
+    build: .
+    volumes:
+     - .:/root
+    ports:
+     - 4000:4000
+    links:
+     - database
+
+  notebook:
+    container_name: HANK_NOTES
+    image: jupyter/minimal-notebook:latest
+    restart: always
+    ports:
+     - 8888:8888
+    links:
+     - database
+
+  database:
+    container_name: HANK_DB
+    entrypoint: mongod
+    image: mongo:3.0.2
+    restart: always
+    ports:
+     - 27017:27017

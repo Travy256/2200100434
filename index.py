@@ -16,4 +16,4 @@ def about():
 def contacts():
     return render_template("contacts.html")
 
-app.run()
+app.run(host="0.0.0.0", port=4000)
