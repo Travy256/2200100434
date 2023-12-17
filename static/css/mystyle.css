@@ -1,10 +1,12 @@
-body{background-color: greenyellow;}
+body {
+  margin: 0px;
+  background-color: white;
+}
 
 .header {
     display: flex;
     align-items: center;
-    background-color: white;
-    color: black;
+    background-color: black;
     font-size: 28pt;
     text-align: center;
 }
@@ -18,13 +20,52 @@ body{background-color: greenyellow;}
 
 .header .page {
     display: inline-block;
-    color: black;
+    color: white;
     margin: 10px;
+}
+
+div.info {
+  padding: 10px;
+}
+
+.map {
+  margin: 10px;
+  width: 50%;
+  border: black 2px solid;
+  border-radius: 10px;
+}
+
+iframe {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-size: 18pt;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer #logo {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.footer .page {
+  display: inline-block;
+  color: black;
+  margin: 10px;
 }
 
 .text1{background-color: white; color: darkblue; text-align: justify; width: 40%;
 padding: 12pt; margin-top: 21pt; border: blue 10px solid; border-radius: 20px; }
 
-.text1 img{width: 40%; float: left; padding: 22pt;}
-.text2{background-color: purple; color: lightskyblue; text-align: justify; width: 40%; padding: 10pt; border: red 10pt solid; border-radius: 20px; float: left;}
-.text2 img{width: 40%; float: left; padding: 22pt;}
+.text1 img{width: 40%; padding: 22pt;}
+.text2{background-color: purple; color: lightskyblue; text-align: justify; width: 40%; padding: 10pt; border: red 10pt solid; border-radius: 20px;}
+.text2 img{width: 40%; padding: 22pt;}
